@@ -14,6 +14,12 @@ body{
     background-color: #333;
     height: 100px; 
     display: flex; 
+
+  }
+
+  nav{
+    display: flex; 
+    text-align: right; 
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -25,10 +31,9 @@ body{
     text-decoration: underline;
     font-size: 1.6vw;
     transition: all 0.25s ease-in;
-    max-width: 60vw;
     flex: 2; 
     margin-bottom: 50px; 
-    width: 100%; 
+    justify-content: flex-end;
   }
   
   /* Change the color of links on hover */
@@ -44,6 +49,7 @@ body{
       margin: 10px; 
       padding-bottom: 0px;
       max-width: 40vw; 
+      display: inline;
   }
 
   h3{
@@ -70,35 +76,27 @@ body{
   .jumbotron-text {
     text-align: right;
     background-color: var(--mid);
+    color: var(--dark); 
     align-items: flex-end;
-    /*position: absolute;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    color: white;*/
   }
   
   .vl {
     border-left: 4px solid var(--dark);
-    /*height: 150px;*/
   }
 
-  /*Trying to style the gallery*/
-  #work {
-    flex-wrap: wrap;
-}
+  p{
+    color: var(--dark); 
+  }
+
 
 img[href*="sarahgilbreath.com"]{
     border: 5px solid black; 
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
   }
   
 .gallery:first-child{
@@ -106,31 +104,14 @@ img[href*="sarahgilbreath.com"]{
 }
 
 .galleryItem{
-   /* border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;*/
+  display: flex;
+  flex-basis: 50%; 
 }
 
   div.gallery:hover {
     border: 1px solid #777;
   }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
+
 
   /*oh god please work*/
   .sectionParent {
@@ -162,5 +143,9 @@ img[href*="sarahgilbreath.com"]{
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size: 2vw;
   }
   
+  #contactMe a{
+    color: var(--dark);
+  }
