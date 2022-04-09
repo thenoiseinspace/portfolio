@@ -12,7 +12,7 @@ body{
 /*setting up media queries*/
 /* Tablets */
 @media screen and (max-width: 992px) {
-  header {
+  header, body {
     justify-content: center;
     text-align: center;
   }
@@ -20,19 +20,22 @@ body{
 
 /* Large smartphones */
 @media screen and (max-width: 768px) {
-  /* nav {
-    background-color: #bb8588;
-  } */
+  header, body {
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* Small smartphones*/
 @media screen and (max-width: 576px) {
-  /* .sample-img {
-    background-color: #8ac4ff;
-  } */
+  header, body {
+    justify-content: center;
+    text-align: center;
+  }
 }
 /*End media queries*/
 
+/*Styling navbar*/
 .topnav {
     background-color: #333;
     height: 100px; 
@@ -116,6 +119,7 @@ img[href*="sarahgilbreath.com"]{
     border: 5px solid black; 
 }
 
+/*Styling the gallery section*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -162,14 +166,6 @@ img[href*="sarahgilbreath.com"]{
       max-width: 60vw;
   }
 
-  /* .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 8px; ;
-  } */
-  
-
   .flex-item {
     border: 5px solid var(--dark);
     background-color: var(--mid);
@@ -186,11 +182,6 @@ img[href*="sarahgilbreath.com"]{
     transition: all 0.5s;
     font-size: 0.9rem;
   }
-
-  /* .flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
-} */
 
 
 .flex-item:hover {
@@ -232,30 +223,7 @@ img[href*="sarahgilbreath.com"]{
 
 /* end portfolio project images */
 
-@media screen and (max-width: 768px) {
-  .flex-item,
-  .flex-item:first-child {
-    flex-basis: 100%;
-  }
-
-  .flex-item:first-child {
-    min-height: 150px;
-  }
-
-  .hero-banner {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .contact address {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
-
-
-/*begin contact*/ 
+/*styling contact section*/ 
 
   #contactMe{
     display: flex; 
