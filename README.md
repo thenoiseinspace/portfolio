@@ -6,3 +6,6 @@ Deployed page: <a href="https://thenoiseinspace.github.io/js-quiz"></a>
 
 
 Photo (also in assets folder): 
+<img src="https://github.com/thenoiseinspace/portfolio/blob/main/assets/screenshot1.png">
+
+
