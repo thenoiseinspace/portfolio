@@ -20,16 +20,16 @@ body{
 
 /* Large smartphones */
 @media screen and (max-width: 768px) {
-  nav {
+  /* nav {
     background-color: #bb8588;
-  }
+  } */
 }
 
 /* Small smartphones*/
 @media screen and (max-width: 576px) {
-  .sample-img {
+  /* .sample-img {
     background-color: #8ac4ff;
-  }
+  } */
 }
 /*End media queries*/
 
@@ -162,6 +162,12 @@ img[href*="sarahgilbreath.com"]{
       max-width: 60vw;
   }
 
+  /* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 8px; ;
+  } */
   
 
   .flex-item {
