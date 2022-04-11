@@ -2,7 +2,7 @@ This is my first portfolio built with advanced CSS techniques like Flexbox (and,
 
 Links:
 Github repo: <a href="https://github.com/thenoiseinspace/portfolio">https://github.com/thenoiseinspace/portfolio</a>
-Deployed page: <a href="https://thenoiseinspace.github.io/portfolio">https://thenoiseinspace.github.io/portfolio</a>
+Deployed page: <a href="https://thenoiseinspace.github.io/js-quiz">https://thenoiseinspace.github.io/js-quiz</a>
 
 
 Photo (also in assets folder): 
