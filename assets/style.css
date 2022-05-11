@@ -187,6 +187,11 @@ img[href*="sarahgilbreath.com"]{
     background-size: 150%;
     font-size: 0.9rem;
   }
+x
+  .flex-item:first-child {
+    min-width: 400px;
+    flex-basis: 100%;
+}
 
 .flex-item div {
   background-color: var(--light);
