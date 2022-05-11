@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my first portfolio built with advanced CSS techniques like Flexbox (and, tragically, no libraries or frameworks like Bootstrap). This includes links to my current actual portfolio, which hosts samples of my work and a resume in timeline format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenoiseinspace/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenoiseinspace/portfolio/issues"
+  },
+  "homepage": "https://github.com/thenoiseinspace/portfolio#readme"
+}
